@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.container .header-section,
+.container .main-section,
+.container .footer-section {
+    background-color: #1F2937;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 150px;
+}
+
+.header-section {
+    justify-content: space-between;
+}
+.header-links,
+.main-section img {
+    margin-right: 150px;
+}
+.header-links a.nav-link:link {
+    text-decoration: none;
+}
+
+.header-links a.nav-link:link, 
+.main-section p,
+.sign-up-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-section div {
+    flex-basis: 400px;
+    
+}
+.main-section .main-text {
+    margin-left: 150px;
+}
+.main-section h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.main-section button {
+    margin-bottom: 150px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 80px;
+    height: 25px;
+}
+
+
+
+/*
+
+.main-point img {
+    background-color: gray;
+}
+
+.random-information { 
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.boxes {
+    flex-direction: row;
+}
+
+
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+}
+
+.call-to-action p {
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+}
+*/
