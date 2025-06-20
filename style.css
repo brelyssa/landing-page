@@ -98,6 +98,7 @@ button {
     border-radius: 8px;
 }
 
+/*Quote section*/
 .quote-section {
     display: flex;
     flex-direction: column;
@@ -107,13 +108,14 @@ button {
     font-size: 36px;
     font-family: Light Italic;
     color: #1F2937;
-    margin: 1em 4em 0 4em;
+    margin: 5% 20% 0 20%;
 }
 .quote-section .quote-name {
     text-align: right;
-    margin-right: 8em;
+    margin: 0 20% 5% 0;
 }
 
+/*Sign up section*/
 .sign-up-section {
     display: flex;
     flex-direction: row;
@@ -137,6 +139,7 @@ button {
     height: 25px;
 }
 
+/*Footer*/
 .footer-section {
     text-align: center;
     padding: 1em 0 1em 0;
